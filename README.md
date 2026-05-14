@@ -51,7 +51,7 @@ SevEngine is a lightweight Python implementation of a Mode 7 renderer designed f
 - Lightweight and beginner-friendly (one file)
 - Real-time movement system
 - Fully written in Python
-- **Fully customizable**
+- **Fully customizable** (use your own assets and settings or use the default ones)
 
 ---
 
