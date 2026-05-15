@@ -1,5 +1,7 @@
 # SevEngine v1.1
 
+![Numba Mode Placeholder](screenshots/numba_demo.gif)
+
 Lightweight pseudo-3D / Mode 7 renderer built with Python, Pygame, and NumPy.
 
 SevEngine focuses on simplicity, readability, and experimentation while still achieving fast software-rendered floor projection effects similar to early racing games and retro console hardware.
