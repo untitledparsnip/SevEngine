@@ -105,6 +105,8 @@ floor = pg.surfarray.array3d(floor_img)
 # FINITE WORLD CONSTRUCTION
 # =========================================================
 
+BORDER_SIZE = 1
+
 finite_width = floor_width + BORDER_SIZE * 2
 finite_height = floor_height + BORDER_SIZE * 2
 
@@ -116,8 +118,6 @@ finite_surface = pg.Surface(
 )
 
 finite_surface.fill(BORDER_COLOR)
-
-BORDER_SIZE = 1
 
 finite_surface.blit(
     floor_img,
