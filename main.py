@@ -33,7 +33,6 @@ FLOOR = "assets/floor.jpg"
 # =========================================================
 
 INFINITE_WORLD = False
-BORDER_SIZE = 2048
 
 # Border color (RGB)
 BORDER_COLOR = (0, 0, 0)
@@ -102,6 +101,7 @@ finite_surface = pg.Surface((finite_width, finite_height))
 
 finite_surface.fill(BORDER_COLOR)
 
+BORDER_SIZE = 1
 finite_surface.blit(floor_img, (BORDER_SIZE, BORDER_SIZE))
 
 finite_floor = pg.surfarray.array3d(finite_surface)
