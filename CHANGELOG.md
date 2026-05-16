@@ -41,7 +41,6 @@ INFINITE_WORLD = False
 Finite worlds are generated automatically at runtime.
 
 Features:
-- configurable border size
 - configurable border color
 - no manual image editing required
 
