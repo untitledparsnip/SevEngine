@@ -37,7 +37,6 @@ This creates:
 ## Configurable Border System
 
 Customize:
-- border size
 - border color
 - finite/infinite world mode
 
@@ -45,7 +44,6 @@ Example:
 
 ```python
 INFINITE_WORLD = False
-BORDER_SIZE = 2048
 BORDER_COLOR = (0, 0, 0)
 ```
 
@@ -218,7 +216,7 @@ Instead, the engine projects a textured floor plane using mathematical perspecti
 
 Finite worlds are generated procedurally:
 
-1. create oversized surface
+1. create infinite repeating surface
 2. fill with border color
 3. place floor texture in center
 4. sample resulting texture
@@ -234,7 +232,7 @@ SevEngine v1.1 currently does not include:
 - collision system
 - sprites/billboards
 - height variation
-- lighting system
+- lighting system (although shading exists)
 - multiplayer
 - audio
 
@@ -246,7 +244,6 @@ These are planned for future versions.
 
 ## v1.2 Goals
 - border collision
-- player hitbox radius
 - improved optimization
 - cleaner engine structure
 - better world-space handling
@@ -256,7 +253,6 @@ These are planned for future versions.
 - billboard sprites
 - elevation support
 - map editor
-- OpenGL renderer
 - shader pipeline
 - multiplayer experiments
 
